@@ -1,0 +1,119 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOvHTS0YvdilcXDpXv2NfY2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/MouksineSanni/my-first-repo/blob/main/Python_for_Biology\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "aDKvSnEkLi1_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jDCJF49jGyw5",
+        "outputId": "05be8c3a-a513-4cd1-f859-69234e795742"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "KERATIN\n"
+          ]
+        }
+      ],
+      "source": [
+        "BRCA1=(\"collagen\")\n",
+        "BRCA2=(\"KERATIN\")\n",
+        "BRCA3=(\"GLOBULAR\")\n",
+        "print(BRCA2)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "organism=\"E.coli\"\n",
+        "#we are creting our first varible.that is the organisme name .\n",
+        "#to make this varible we have to write two things one is the the tag that is the name of varible\n",
+        "#and other one is the information that we store inside the varible\n",
+        "#always write that varible in between the comas, to connect both orgnim and varible we used= function operator, assigment\n",
+        "#the duty of that=button is to asign the value to our varible/tag that is why we call it\n",
+        "#assignement variable.\n",
+        "print(organism)\n",
+        "print(BRCA1)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9UbArqUQLt2H",
+        "outputId": "d6234af4-1ce6-438a-e583-ab6fb7a0fb99"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "E.coli\n",
+            "collagen\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "leucocytes=(\"lymphocytes\")\n",
+        "polynuclear=(\"esinophyl\")\n",
+        "cancer=(\"glioma\")\n",
+        "protein=(\"PD1\")\n",
+        "Antibody=(\"antipd1\")"
+      ],
+      "metadata": {
+        "id": "AKBEYeDeO8ev"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "aW9SKYwLS2Lq"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
