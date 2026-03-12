@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOvHTS0YvdilcXDpXv2NfY2",
+      "authorship_tag": "ABX9TyNDcwQCMbB3T0cFUpMnhTG6",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -108,12 +108,128 @@
     },
     {
       "cell_type": "code",
-      "source": [],
+      "source": [
+        "print(temperature*)"
+      ],
       "metadata": {
         "id": "aW9SKYwLS2Lq"
       },
       "execution_count": null,
       "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temp=37\n",
+        "print(temp*5)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WQskkLfaKpbR",
+        "outputId": "34a868fa-080e-4d7c-caf9-ca22bba343bd"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "185\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "cell_alive=True\n",
+        "print(cell_alive)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "f9sV5hDJK0YZ",
+        "outputId": "28274c65-1fe4-45d0-8401-3dd9bb45ed79"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "rbQgbOk2RybT"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temperature=38\n",
+        "fever=temperature>37\n",
+        "print(\"Does the patient have a fever\")\n",
+        "print(fever)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RvjUP2qMPxsV",
+        "outputId": "bbc4f7f7-f1ad-41b2-8782-5cd2c376542a"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Does the patient have a fever\n",
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temerature=38\n",
+        "if temperature>:\n",
+        "  print(\"Patient has a fever\")\n",
+        "  else:\n",
+        "  print(\"patient is normal\")\n",
+        "  print"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "hIt6kvrqRwsQ",
+        "outputId": "61fbe171-fa53-4d1f-a747-3741682059c4"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "invalid syntax (3864505181.py, line 2)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipykernel_538/3864505181.py\"\u001b[0;36m, line \u001b[0;32m2\u001b[0m\n\u001b[0;31m    if temperature>:\u001b[0m\n\u001b[0m                   ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+          ]
+        }
+      ]
     }
   ]
 }
